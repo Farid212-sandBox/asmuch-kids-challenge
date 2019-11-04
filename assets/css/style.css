@@ -1,0 +1,33 @@
+h1{
+  margin: 20px;
+  font-size: 7.5rem;
+}
+
+p{
+  font-size: 2rem;
+}
+
+table{
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid gray;
+  text-align: center;
+} 
+
+.colonne:hover{
+  background-color: lightgray;
+  color: black;
+}
+
+.colonne td:hover{
+  cursor: pointer;
+}
+
+.colonne td a:hover {
+  text-decoration: none;
+  background-color: yellowgreen;
+  color: blue;
+
+}
