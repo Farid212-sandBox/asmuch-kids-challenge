@@ -11,27 +11,124 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="text-center">
-            <h1>HomeWork</h1>
-            <p>All Homework information will be here.</p>
-        </div>
-        <div class="shadow">
-            <table>
-                <tr>
-                    <th>Weeks</th>
-                    <th>English Group</th>
-                    <th>Groupe Francais</th>
-                </tr>
-                <tr class="colonne">
-                    <td>45</td>
-                    <td><a href="English/Weeks45/index.html" target="_blank">--->Click here<---</a></td>
-                    <td>na</td>
-                </tr>
-            </table>
+    <div class="header">
+
+        <div class="container">
+            <div class="text-center" id="titlePage">
+                <h1>HomeWork</h1>
+                <p>All Homework information will be here.</p>
+            </div>
+
+            <div>
+                <ul class="d-flex justify-content-around">
+                    <li><button id="1" data-toggle="modal" data-target="#content1">Do not click</button></li>
+                    <li><button id="2">Do not click</button></li>
+                    <li><button id="3">Do not click</button></li>
+                    <li><button id="4">Do not click</button></li>
+                </ul>
+            </div>
+
+            <div class="shadow">
+                <table>
+                    <tr>
+                        <th>Weeks</th>
+                        <th>English Group</th>
+                        <th>Groupe Francais</th>
+                    </tr>
+                    <tr class="colonne">
+                        <td>45</td>
+                        <td><a href="English/Weeks45/index.html" target="_blank">--->Click here<---</a> </td> <td>na
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
+
+        <div class="inner-header"></div>
+
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+        </svg>
     </div>
+
+    <div class="modal fade" id="content1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="content1CenterTitle">Web magic</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <tr>
+                            <td>25</td>
+                            <td>23</td>
+                            <td>28</td>
+                            <td>21</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>11</td>
+                            <td>16</td>
+                            <td>9</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>18</td>
+                            <td>23</td>
+                            <td>16</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>28</td>
+                            <td>26</td>
+                            <td>31</td>
+                            <td>24</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>9</td>
+                            <td>14</td>
+                            <td>7</td>
+                            <td>12</td>
+                        </tr>
+                    </table>
+                    <p>crosses 5 numbers in this table, but only one digit must be checked per row or column. do the sum
+                        and I will find the answer to our next meeting</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
