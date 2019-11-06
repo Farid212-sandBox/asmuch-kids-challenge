@@ -25,7 +25,7 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#8c4ecc', endColorstr='#ae7ae3');
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#8c4ecc', endColorstr='#ae7ae3')";
 }
-.language a:active{  /* クリックした時 */
+.language a:active{ 
     -ms-transform: translateY(2px);
     -webkit-transform: translateY(2px);
     transform: translateY(2px);
