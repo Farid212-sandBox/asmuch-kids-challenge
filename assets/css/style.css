@@ -36,7 +36,7 @@ body {
 
 #titlePage h1{
   padding: 20px;
-  font-size: 7.5rem;
+  font-size: 5.5rem;
   text-shadow: 0 .5rem 1rem rgba(0,0,0,.50);
   font-family: 'Indie Flower', cursive;
 }
@@ -75,7 +75,7 @@ th, td {
   color: blue;
 }
 
-/* animation */
+/* Animation */
 
 .header {
   position:relative;
@@ -96,8 +96,6 @@ th, td {
   min-height:100px;
   max-height:150px;
 }
-
-/* Animation */
 
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
